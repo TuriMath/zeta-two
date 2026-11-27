@@ -1,0 +1,14 @@
+{
+  "slug": "ZetaTwo",
+  "issue": "TuriMath/zeta-two#1",
+  "tier": 1,
+  "source": "Euler (1734), the Basel problem; Wiedijk 100 Theorems",
+  "statement_provenance": "blind-double",
+  "verdict": "proved",
+  "attempts": {"formalize_rounds": 1, "equiv": 1, "prove": 1},
+  "mathlib_lemmas": ["hasSum_one_div_nat_pow_mul_cos", "Polynomial.bernoulli_eval_zero", "bernoulli_eq_bernoulli'_of_ne_one", "bernoulli'_two", "Function.Injective.hasSum_iff"],
+  "calibration": true,
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Did not cite hasSum_zeta_two/hasSum_zeta_nat. Used the cosine Fourier series of Bernoulli polynomials at k=1, x=0, evaluated B_2(0)=1/6, reindexed N to N+ (n=0 term is 0). Worked first try."
+}
