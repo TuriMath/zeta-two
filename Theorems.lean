@@ -2,3 +2,4 @@
 import Theorems.ZetaTwo.A
 import Theorems.ZetaTwo.B
 import Theorems.ZetaTwo.Equiv
+import Theorems.ZetaTwo.Proof
