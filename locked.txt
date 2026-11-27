@@ -1,1 +1,4 @@
 # sha256  path. Statements locked after their A<->B PR merged. Lines are only ever added (scripts/gate.py, check 6).
+061040938dc17164aa5b56dc0c4319437753b5212702e9bd8ef4a3cfb7f0c20d  Theorems/ZetaTwo/A.lean
+cb172a0ded8b605785b43d44a9f721b2b6a197720e7fd52e73425a6ed390e097  Theorems/ZetaTwo/B.lean
+2476ca3a1b04f9d4d2d6aadf546df7608f7be71cb1dc84b5f132debc4de86a9a  Theorems/ZetaTwo/Equiv.lean
