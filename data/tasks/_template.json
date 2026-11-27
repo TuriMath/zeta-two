@@ -1,0 +1,14 @@
+{
+  "slug": "WilsonTheorem",
+  "issue": "TuriMath/<repo>#1",
+  "tier": 1,
+  "source": "Hardy & Wright, Thm 80",
+  "statement_provenance": "blind-double",
+  "verdict": "proved",
+  "attempts": {"formalize_rounds": 1, "equiv": 1, "prove": 2},
+  "mathlib_lemmas": ["Nat.Prime.two_le"],
+  "calibration": true,
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "What was hard, what failed first."
+}
